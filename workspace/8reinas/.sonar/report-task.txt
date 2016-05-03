@@ -1,0 +1,5 @@
+projectKey=reinas
+serverUrl=http://sonar-agvpis2.rhcloud.com
+dashboardUrl=http://sonar-agvpis2.rhcloud.com/dashboard/index/reinas
+ceTaskId=AVR2EOlHlJ7VAljaL85p
+ceTaskUrl=http://sonar-agvpis2.rhcloud.com/api/ce/task?id=AVR2EOlHlJ7VAljaL85p

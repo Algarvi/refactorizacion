@@ -1,0 +1,5 @@
+projectKey=dibujable
+serverUrl=http://sonar-agvpis2.rhcloud.com
+dashboardUrl=http://sonar-agvpis2.rhcloud.com/dashboard/index/dibujable
+ceTaskId=AVR2wIaVlJ7VAljaL88k
+ceTaskUrl=http://sonar-agvpis2.rhcloud.com/api/ce/task?id=AVR2wIaVlJ7VAljaL88k

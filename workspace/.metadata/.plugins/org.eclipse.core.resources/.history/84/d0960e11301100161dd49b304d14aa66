@@ -1,0 +1,72 @@
+package casodibujable;
+
+import java.awt.*;
+import java.awt.event.*;
+
+class VentanaCerrable extends Frame implements WindowListener {
+	private static final Exception UnsupportedOperationException = null;
+
+	// constructores
+	public VentanaCerrable() {
+		super();
+	}
+
+	public VentanaCerrable(String title) {
+		super(title);
+		setSize(500, 500);
+		addWindowListener(this);
+	}
+
+	// métodos de la interface WindowsListener
+	public void windowActivated(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+	public void windowClosed(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+	public void windowClosing(WindowEvent e) {
+		System.exit(0);
+	}
+
+	public void windowDeactivated(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+	public void windowDeiconified(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+	public void windowIconified(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+
+	public void windowOpened(WindowEvent e) {
+		try {
+			throw UnsupportedOperationException;
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+	}
+}
